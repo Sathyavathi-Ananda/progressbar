@@ -1,0 +1,25 @@
+<div class="trip-distance">
+    <span class=" minutes">{{minLeft}}<span class="min">min</span></span>
+    <div class="links">
+      <div class="source"><img src="../../assets/trip-start.svg" class="trip-start-img" alt="user"> <div
+          class="caption">{{source}}</div>
+         <div> <label class="tripStartedOn12">{{tripStartedOn}}</label></div></div>
+      <div class="progress">
+        <div class="progress-bar" role="progressbar" [style.width]="posWidth" aria-valuenow="25" aria-valuemin="0"
+          aria-valuemax="100">
+        </div>
+        <div class="progress-image" role="progressbar" [style.background-position-x]="posX" aria-valuenow="25"
+          aria-valuemin="0" aria-valuemax="100">
+        </div>
+
+        <div class="progress-bar-2" role="progressbar" [style.width]="posLine" aria-valuenow="25" aria-valuemin="0"
+          aria-valuemax="100">
+        </div>
+      </div>
+
+      <div class="destination"><img src="../../assets/trip -finish.svg" class="trip-finish-img" alt="user"> <span
+          class="destcaption">{{destination}}</span></div>
+    </div>
+  </div>
+
+
