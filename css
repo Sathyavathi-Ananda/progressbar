@@ -1,0 +1,142 @@
+.trip-distance{
+  padding: 2px 20px 0;
+}
+.minutes{
+  left: 50%;
+  position: relative;
+  top: 15px;
+}
+.min{
+  padding-left: 2px;
+}
+.links {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+  /* justify-content: center; */
+  position: relative;
+  text-align: right;
+  /* padding-right: 50%; */
+  /* white-space: nowrap; */
+}
+.source{
+  margin-top: -12px;
+ margin-right: -12px;
+
+}
+.destination{
+  margin-top: -12px;
+  margin-left: -15px;
+  display: flex;
+}
+.trip-start-img{
+  width: 30px;
+  /* border-radius: 50px; */
+  height: 30px;
+}
+.destcaption{
+
+  left: 238px;
+  /* width: 112px; */
+    text-align: initial;
+    top: 20px;
+    /* right: -20px; */
+  display: flex;
+  /* padding-top: 9px; */
+  color: #06C485;
+  font-size: 8px;
+  /* float: right; */
+  font-weight: bold;
+  /* margin-top: 30px; */
+    position: absolute;
+}
+.trip-finish-img{
+  width: 35px;
+  /* border-radius: 50px; */
+  height: 30px;
+}
+
+.caption{
+  display: flex;
+  /* padding-top: 5px; */
+  /* color: #06C485; */
+  font-size: 8px;
+  /* float: right; */
+  font-weight: bold;
+  margin-top: 5px;
+  position: absolute;
+  width: 115px;
+  text-align: initial;
+}
+.tripStartedOn12{
+  font-size: 7px;
+  float: right;
+  font-weight: 500;
+  /* margin-top: 24px; */
+  position: absolute;
+  display: block;
+  top: 52px;
+}
+.progress {
+	display:flex;
+    height: 30px;
+    /* display: -webkit-box; */
+    /* display: flex; */
+    width: 530px;
+    overflow: hidden;
+    font-size: .75rem;
+    background-color: transparent;
+    border-radius: .25rem;
+    margin: 0 auto;
+}
+
+
+.progress-bar {
+    width: 100%;
+    z-index: 0;
+    /* -webkit-appearance: none; */
+    border: 1px solid darkgrey;
+    background-color: transparent;
+    height: 18px;
+    border-style: none none dashed;
+}
+
+.progress-bar-2{
+  width: 100%;
+    z-index: 1;
+    /* -webkit-appearance: none; */
+    border: 1px solid #33d78f;
+    background-color: transparent;
+    height: 18px;
+    border-style: none none dashed;
+    /* border-style: none none dashed; */
+
+}
+
+
+.progress-image {
+  /* 72 */
+    width: 92%;
+    position: absolute;
+    background-image: url('../../../assets/vehicle_green.svg');
+    background-repeat: no-repeat;
+    -webkit-appearance: none;
+    background-color: transparent;
+    background-position-x: 50%;
+    z-index: 2;
+    height: 30px;
+}
+
+
+.progressGreenImg{
+   height: 40px !important;
+}
+::ng-deep .bsuInfo{
+  margin: 0 auto;
+  text-align: center;
+  justify-content: center;
+  font-size: 12px;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  overflow: hidden;
+}
